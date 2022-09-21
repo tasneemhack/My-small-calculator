@@ -1,0 +1,39 @@
+h1{
+    font-size: 70px; 
+    text-align:center; 
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-image: url('cal.webp');
+    background-size: cover;
+}
+.result{
+    background-color:antiquewhite;
+}
+.clear{
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.equal{
+    background-color: yellow;
+    cursor: pointer;
+}
+.numbers{
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.operations{
+    background-color:whitesmoke;
+    cursor: pointer;
+
+}
+div{
+    border: 5px solid green;
+    height: 150px;
+    width: 250px;
+    margin:auto;
+    background-color:grey; 
+    place-items:initial;    
+}

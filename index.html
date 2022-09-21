@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CALCULATOR</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="task1.css">
+    <script src="task1.js"></script>
+
+</head>
+
+<body>
+    <h1>Calculator</h1> 
+    <div>
+        <table>
+            <form></form>
+            <tr>
+                <td colspan="3">
+                    <input type="text" id="result" class="result" name="result">
+                </td>
+
+                <td>
+                    <button type="button" id="clear" class="operations" name="clear" onclick="clrFun('result')">CLR</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" id="7" class="numbers" name="seven" onclick="display('7')">7</button>
+                </td>
+                <td>
+                    <button type="button" id="8" class="numbers" name="eight" onclick="display('8')">8</button>
+                </td>
+                <td>
+                    <button type="button" id="9" class="numbers" name="nine" onclick="display('9')">9</button>
+                </td>
+                <td>
+                    <button type="button" id="div" class="operations" name="div" onclick="display('/')">/</button>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <button type="button" id="4" class="numbers" name="four" onclick="display('4')">4</button>
+                </td>
+                <td>
+                    <button type="button" id="5" class="numbers" name="five" onclick="display('5')">5</button>
+                </td>
+                <td>
+                    <button type="button" id="6" class="numbers" name="six" onclick="display('6')">6</button>
+                </td>
+                <td>
+                    <button type="button" id="mul" class="operations" name="mul" onclick="display('*')">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="1" class="numbers" name="one" onclick="display('1')">1</button>
+                </td>
+                <td>
+                    <button type="button" id="2" class="numbers" name="two" onclick="display('2')">2</button>
+                </td>
+                <td>
+                    <button type="button" id="3" class="numbers" name="three" onclick="display('3')">3</button>
+                </td>
+                <td>
+                    <button type="button" id="sub" class="operations" name="sub" onclick="display('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="0" class="numbers" name="zaro" onclick="display('0')">0</button>
+                </td>
+                <td>
+                    <button type="button" id="." class="numbers" name="dot" onclick="display('.')">.</button>
+                </td>
+                <td>
+                    <button type="button" id="=" class="equal" name="equ" onclick="solve()">=</button>
+                </td>
+                <td>
+                    <button type="button" id="sum" class="operations" name="sum" onclick="display('+')">+</button>
+                </td>
+            </tr>
+        </table> 
+    </div>
+</body>
+
+</html>
