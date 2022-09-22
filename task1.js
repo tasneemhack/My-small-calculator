@@ -3,7 +3,7 @@ function clrFun(){
 }
 
 function display(val){
-    document.getElementById('result').value +=val;
+    document.getElementById('result').value =val;
 }
 
 function solve(){
