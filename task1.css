@@ -10,10 +10,6 @@ body{
 .result{
     background-color:antiquewhite;
 }
-.clear{
-    background-color: rgb(128, 128, 128);
-    cursor: pointer;
-}
 
 .equal{
     background-color: yellow;
@@ -27,13 +23,12 @@ body{
 .operations{
     background-color:whitesmoke;
     cursor: pointer;
-
+    
 }
 div{
     border: 5px solid green;
     height: 150px;
     width: 250px;
     margin:auto;
-    background-color:grey; 
-    place-items:initial;    
+    background-color:grey;    
 }
